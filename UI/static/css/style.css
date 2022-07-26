@@ -1,0 +1,230 @@
+/*
+COLORS
+    rgb(243,5,5) red
+    rgb(251,161,12) orange
+    crna
+    i bela rgb(217, 217, 217)
+*/
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+}
+
+body {
+    display:flex
+}
+
+/*Topnav je horizontalni gornji a hornav je vertikalni samo sam ga pogresno nazvao pa me mrzelo menjati*/
+.topnav-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 48px;
+    background-color: whitesmoke;
+}
+
+.topnav-li {
+    float: right;
+}
+
+.topnav-a {
+    display: block;
+    padding: 8px;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav-a:hover {
+    color: orange;
+    border-bottom: 3px solid red;
+    padding-bottom: 3px;
+}
+
+.hornav-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+
+.hornav-li{
+    float:left;
+
+}
+
+.hornav-li-text {
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.hornav-a {
+    text-decoration: none;
+    color: black;
+}
+
+.hornav-a:hover{
+    color: orange;
+    border-bottom: 3px solid red;
+    padding-bottom: 3px;
+}
+
+.active a{
+    color: orange;
+    border-bottom: 3px solid red;
+    padding-bottom: 3px;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    border: 1px solid rgb(217, 217, 217);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+table th, table td{
+    /*width: 25%;*/
+}
+
+form {
+    margin:auto;
+
+}
+
+.button {
+    font-family: pp-sans-big-medium,Helvetica Neue,Arial,sans-serif;
+    font-weight: 400;
+    font-variant: normal;
+    font-size: 15px;
+    border-radius: 25px;
+    height: 48px;
+    width: 100%;
+}
+
+.login-button {
+    background-color: rgb(243,5,5);
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+
+.login-button:hover {
+    background-color: rgb(204, 0, 0);
+}
+
+.register-button {
+    background-color: white;
+    color:rgb(243,5,5);
+    font-weight: bold;
+    border-color: rgb(255, 102, 102);
+}
+
+.register-button:hover {
+    border: 2px solid rgb(204, 0, 0);
+}
+
+.form-control {
+    width: 400px;
+    height: 56px;
+    font-family: pp-sans-big-medium,Helvetica Neue,Arial,sans-serif;
+    font-weight: 400;
+    font-variant: normal;
+    font-size: 15px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    border-color: rgb(191, 191, 191);
+}
+
+.form-control-register {
+    width: 400px;
+    height: 46px;
+    font-family: pp-sans-big-medium,Helvetica Neue,Arial,sans-serif;
+    font-weight: 400;
+    font-variant: normal;
+    font-size: 15px;
+    border-radius: 3px;
+    margin-bottom: 13px;
+    padding-left: 10px;
+    border-color: rgb(191, 191, 191);
+}
+
+.ponzi {
+    font-weight: 500;
+    font-family: pp-sans-big-medium,Helvetica Neue,Arial,sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+    margin-bottom: 10px;
+}
+
+.tb-acc-balance {
+    height: auto;
+    width: 100%;
+}
+
+.tb-verified {
+    width: 100%;
+}
+
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .filter {
+    width: 100%;
+    height: 46px;
+    font-family: pp-sans-big-medium,Helvetica Neue,Arial,sans-serif;
+    font-weight: 400;
+    font-variant: normal;
+    font-size: 15px;
+    border-radius: 3px;
+    padding-left: 10px;
+    border-color: rgb(191, 191, 191);
+}
