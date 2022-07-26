@@ -2,8 +2,6 @@
 
 # DRS_Projekat
 
-Teams Meeting: https://teams.microsoft.com/l/meetup-join/19%3ameeting_MmRiMDY3ZDItMTA5MC00YWU2LWEzNmEtYWNkZjIxZjJjYjQ0%40thread.v2/0?context=%7b%22Tid%22%3a%22ada575f6-4e91-4d1d-aa89-9b2d9f5810e3%22%2c%22Oid%22%3a%22a8076ea6-1565-4064-b3f2-d417ad36a00b%22%7d
-
 Projektni zadatak DRES
 
 Implementirati projekat koji simulira medjunarodni platni promet I on-line racun za licne uplate.
